@@ -1,0 +1,28 @@
+# Directorios que no quieres subir
+data/
+outputs/
+src/experiments/
+experiments/
+
+# Archivos generados por el sistema
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Archivos de entornos virtuales
+venv/
+.env
+*.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/

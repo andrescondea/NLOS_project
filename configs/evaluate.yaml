@@ -1,0 +1,7 @@
+data:
+  raw_root:       "data/raw"
+  test_subfolder:  "test"
+
+evaluation:
+  batch_size:  4
+

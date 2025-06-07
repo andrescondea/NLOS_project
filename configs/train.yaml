@@ -1,0 +1,15 @@
+data:
+  raw_root:      "data/raw"
+  train_subfolder: "train"
+  val_subfolder:   "val"
+
+training:
+  seed:        42
+  batch_size:  4
+  num_epochs:  30
+  lr:          0.0001
+  loss:        "mse"       # el paper menciona que L1 fue inestable, por eso MSE
+  seed: 42
+
+experiment:
+  exp_dir:     "experiments/exp01_baseline"  # Carpeta donde se guardarán checkpoints y CSV
