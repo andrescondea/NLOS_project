@@ -36,8 +36,8 @@ def generate_six_transients_for_obj(obj_path: str, output_subdir: str):
         "width": 32,
         "height": 32,
         "temporal_bins": 256,
-        "bin_width_opl": 0.03,
-        "start_opl": 0.30,
+        "bin_width_opl": 0.006,
+        "start_opl": 3.0,
         "rfilter": {"type": "box"}
     }
     integrator_dict = {
